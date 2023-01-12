@@ -38,10 +38,10 @@ const LogIn = () => {
        <div className="hero min-h-screen bg-base-200">
            <div className="hero-content w-full">
              <div  className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-               <div className="card-body">
+               <div className="card-body bg-success">
              <form onSubmit={handleSubmit(handleLogin)}>
-             <div className='text-center text-3xl mb-5 font-mono font-semibold'>
-                         <h1>LogIn Now</h1>
+             <div className='text-center text-3xl mb-5 font-mono  font-semibold'>
+                         <h1 className='text-black'>LogIn Now</h1>
                      </div>
                  <div className="form-control">
                    <input type="email" {...register('email')}  placeholder="Email" className="input input-bordered" required/>
@@ -50,11 +50,11 @@ const LogIn = () => {
                    <input type="password" {...register('password')} placeholder="password" className="input input-bordered" required/>
                  </div>
                  <div className="form-control mt-6">
-                   <button type='submit' className="btn btn-primary">Login</button>
+                   <button type='submit' className="btn btn-black">Login</button>
                  </div>
                  
                  <div>
-                     <p>Haven't an account <Link to='/register' className='text-red-900 link link-hover  text-xl'>Register</Link></p>
+                     <p className='text-black'>Haven't an account <Link to='/register' className='text-red-900 link link-hover  text-xl'>Register</Link></p>
                  </div>
              </form>
                  <div className="form-control mt-3">

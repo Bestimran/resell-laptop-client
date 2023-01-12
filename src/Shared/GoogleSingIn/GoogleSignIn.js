@@ -42,7 +42,7 @@ const GoogleSignIn = () => {
     }
 
     return (
-        <button onClick={handleGoogleSignIn} type='submit' className="btn btn-primary">Google</button>
+        <button onClick={handleGoogleSignIn} type='submit' className="btn btn-black">Google</button>
     );
 };
 

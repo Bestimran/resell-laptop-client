@@ -5,7 +5,7 @@ import { AuthContext } from '../../../contexts/AuthProvider';
 import AdvertiseProduct from '../AdvertiseProduct/AdvertiseProduct';
 import Categories from '../Categories/Categories';
 import HeroArea from '../HeroArea/HeroArea';
-import JoinUs from '../JoinUs/JoinUs';
+
 
 const Home = () => {
     const {loading} = useContext(AuthContext)
@@ -16,7 +16,6 @@ const Home = () => {
               <HeroArea/>
             <Categories></Categories>
             <AdvertiseProduct></AdvertiseProduct>
-            <JoinUs></JoinUs>
           </>
            }
         </div>
