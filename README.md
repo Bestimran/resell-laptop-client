@@ -1,14 +1,17 @@
-1. ### `Live Client site link`  :
+1.  ### `Live Client site link` :
+
         https://resell-product.web.app/
 
-2. ### `Live Server Link` : 
-        https://assignment-server-mdansarulislam641.vercel.app/
+2.  ### `Live Server Link` :
 
-3. ### `Live site check for Admin` : 
-        Email : ansarul@gmail.com  </br>
+        https://laptop-planet-server.vercel.app//
+
+3.  ### `Live site check for Admin` :
+
+        Email : imran@gmail.com  </br>
         Password : 123456 </br>
 
-4. ### `technology use` :
+4.  ### `technology use` :
         (i) React, </br>
         (ii) react-router-dom </br>
         (iii) react-query </br>

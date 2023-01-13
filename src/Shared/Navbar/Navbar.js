@@ -72,7 +72,7 @@ const Navbar = () => {
               className="btn btn-ghost normal-case text-xl font-extrabold 
           font-mono md:text-4xl font-serif bg-sky-400"
             >
-              Mobile Planet
+              Laptop Planet
             </Link>
           </div>
           <div className="navbar-center hidden lg:flex">
